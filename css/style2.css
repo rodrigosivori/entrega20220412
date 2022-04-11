@@ -123,6 +123,7 @@ h4 {
 }
 
 .indexright1 img {
+    border-radius: 15px;
     width: 300px;
     max-width: 90%;
     transition: all .8s;
@@ -148,6 +149,7 @@ h4 {
 }
 
 .indexleft2 img {
+    border-radius: 15px;
     width: 300px;
     max-width: 90%;
     transition: all .8s;
@@ -201,6 +203,8 @@ h4 {
 .indexright3 iframe {
     height: 150px;
     max-width: 90%;
+    border-radius: 15px;
+
     
 }
 
@@ -218,6 +222,8 @@ h4 {
 .indexleft4 iframe {
     height: 150px;
     max-width: 90%;
+    border-radius: 15px;
+
     
 }
 
