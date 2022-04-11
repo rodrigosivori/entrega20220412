@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GOOD.CODE - Contacto</title>
+
+    <link rel="stylesheet" href="./css/style2.css">
+
+</head>
+<body class="home">
+
+
+<!-- Contacto - Tendremos un formulario de contacto, y la ubicacion en un mapa -->
+    
+
+<!-- Aqui comienza el HEADER -->    
+<header>
+    <h2>
+        <a href="index.html">
+            <img src="./multimedia/iconos/goodcode.png" alt="Logo Good Code">
+        </a>
+    </h2>
+
+    <nav>
+        <ul>
+            <li>
+                <a href="index.html">Inicio</a>
+            </li>
+            <li>
+                <a href="trabajos.html">Trabajos</a>
+            </li>
+            <li>
+                <a href="multimedia.html">Multimedia</a>
+            </li>
+            <li>
+                <a href="about-to.html">Sobre Good Code</a>
+            </li>
+            <li>
+                <a href="index.html#contacto">Contacto</a>
+            </li>
+        </ul>
+
+    </nav>
+
+</header>
+<!-- Aqui termina el HEADER -->
+
+
+<!-- FORMULARIO DE CONTACTO -->
+<section class="cont-contacto">
+    <div class="cont-contact-title">
+        <h4>CONTACTANOS</h4>
+        <p>Podras contactarnos mediante el formulario que esta debajo</p>
+    </div>
+
+    <form action="form.php" method="POST" class="formulario">
+        <div class="form-row">
+            <label for="full-name">Nombre y apellido:</label>
+            <input type="text" id="full-name" placeholder="Ej. Pablo Perez" name="nombre"> 
+        </div>
+        
+        <div class="form-row">
+            <label for="email">Correo Electronico:</label>
+            <input type="email" id="email" placeholder="Ej. micaelagonzalez@dominio.com" name="email" required>
+        </div>
+
+        <div class="form-row">
+            <label for="abstract">Dejanos tu mensaje:</label>
+            <textarea name="textarea" id="abstract"></textarea>
+        </div>
+
+        <div class="form-row">
+            <button type="submit">Enviar</button>
+        </div>
+    </form>
+
+    <div class="mapa-contacto">
+        <h4>VISITANOS</h4>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13138.86922835249!2d-58.4322553!3d-34.5860189!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xe8a347bb55df550c!2sCODER%20HOUSE%20%7C%20Coderhouse%20S.R.L.!5e0!3m2!1ses-419!2sar!4v1646899825677!5m2!1ses-419!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+    </div>
+</section>
+<!-- FIN DE FORMULARIO -->
+    
+
+
+<!-- Aqui comienza el footer -->       
+<footer>
+    <nav class="redes">
+        <!-- Redes -->
+        <ul>
+            <li>
+                <a href="https://instagram.com" target="_blank">
+                    <img src="./multimedia/iconos/instagram.png" alt="Instagram"  class="imgredes"></a>
+            </li>
+            <li>
+                <a href="https://linkedin.com" target="_blank">
+                    <img src="./multimedia/iconos/linkedin.png" alt="Linkedin" class="imgredes"></a>
+            </li>
+            <li>
+                <a href="contacto.html">
+                    <img src="./multimedia/iconos/contacto.png" alt="Contactanos" class="imgredes"></a>
+            </li>
+        </ul>
+    </nav>
+
+    <section class="footerlogos">
+        <div class="logofooter">
+            <a href="index.html">
+                <img src="./multimedia/iconos/goodcode.png" alt="Logo Good Code" class="imglogofooter">
+            </a>    
+        </div>
+    </section>
+</footer>
+<!-- Aqui termina el footer -->
+
+
+</body>
+</html>
