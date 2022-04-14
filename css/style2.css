@@ -9,6 +9,9 @@
     background-color: #5e5e5e;
 }
 
+a   {
+    text-decoration: none;
+}
 
 /* HEADER - INICIO */
 header {
@@ -53,6 +56,30 @@ a:visited{
     text-decoration: none;
     color: #000000;
 }
+
+.navbar .container-fluid {
+    justify-content: flex-end;
+
+}
+
+.navbar-nav {
+    background-color: #fff;
+    align-items: end;
+    padding: 0;
+
+}
+@media screen and (max-width: 991px) {
+    .navbar-nav {
+        border: 1px solid;
+
+    }
+    .contenedor div p {
+        display: none;
+    }
+
+   
+
+}
 /* HEADER - FIN */
 
 
@@ -79,9 +106,9 @@ a:visited{
 h4 {
     color: chocolate;
     font-family: 'Oswald', sans-serif;
-    font-size: 2em;
     padding-bottom: 15px;
     text-align: center;
+    font-size: 3vw;
 }
 
 .contenedor div p {
@@ -89,6 +116,7 @@ h4 {
     font-family: 'Oswald', sans-serif;
     color: cornsilk; 
     text-align: center;
+    font-size: 1vw;
 
 }
 /* CONTENEDOR INDEX - FIN */
@@ -96,6 +124,7 @@ h4 {
 
 
 /* INDEX - INICIO */
+
 .indexleft1 {
     grid-area: indexleft1;
     display: flex;
