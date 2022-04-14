@@ -448,9 +448,8 @@ h4 {
 }
 
 .cont-trabajos div img {
-    max-width: 300px;
+    max-width: 90%;
     border-radius: 15px;
-    max-height: 200px;
 }
 /* TRABAJOS - FIN */
 
