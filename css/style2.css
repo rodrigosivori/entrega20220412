@@ -172,6 +172,9 @@ h4 {
     border-radius:15px;
     height: 250px;
 }
+.indexleft2-box img, .indexright1-box img {
+    border-radius: 15px;
+}
 
 .indexleft2 img {
     border-radius: 15px;
