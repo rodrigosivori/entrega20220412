@@ -274,6 +274,8 @@ h4 {
 .contenedor div p a:hover {
     color: #000000;
 }
+
+
 /* INDEX - INICIO */
 
 
@@ -658,3 +660,50 @@ footer {
     width: 80px;
 }
 /* FOOTER - FIN */    
+
+/* mobile */
+
+@media screen and (max-width: 550px) {
+    /* index mobile */
+    .contenedor {
+        display: flex;
+        flex-direction: column;
+        padding: 0;
+        margin: 15px;
+        row-gap: 0px;
+    }
+
+    h4 {
+        font-size: 5vw;
+    }
+ 
+
+    .indexleft1  {
+        height: 30px;
+        padding: 90px 0 40px 0;
+        border: none;
+    }
+    .indexright2 {
+        height: 30px;
+        padding-top: 50px;
+        border: none;
+    }
+    .indexright1, .indexright1-box, .indexleft2, .indexleft3, .indexright4 {
+        display: none;
+    }
+    .indexleft2-box, .indexright1-box, .indexright3, .indexleft4 {
+        border: none;
+    }
+
+    /* multimedia mobile */
+
+    .content-multimedia {
+        display: flex;
+        flex-direction: column;
+        padding: 25px 0;
+        margin: 20px;
+    }
+    
+    
+
+}
